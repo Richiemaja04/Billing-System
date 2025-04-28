@@ -28,8 +28,23 @@ A simple web-based application built with Flask to manage customer bills, track 
 * **Database:** Uses SQLite for data persistence (`billing_data.db`).
 
 ## File Structure
-
-
+```
+BILLING SYSTEM
+├── static/
+│   └── css/
+│       └── style.css
+├── js/
+│   ├── expenses.js
+│   ├── income.js
+│   ├── main.js
+│   └── stats.js
+├── templates/
+│   ├── expencetbl.html
+│   ├── incometbl.html
+│   ├── index.html
+│   └── stat.html
+└── main.py
+```
 
 ## Technologies Used
 
